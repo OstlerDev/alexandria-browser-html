@@ -38,6 +38,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/css\/prism.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/prism.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/css\/videojs-sublime-skin.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -46,6 +55,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/img\/2048.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47770,
+		"inputAbbreviatedPath": "\/assets\/img\/2048.png",
+		"outputAbbreviatedPath": "\/assets\/img\/2048.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/album-artwork.jpg": {
 		"fileType": 16384,
@@ -113,6 +133,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/bitcoin-cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38639,
+		"inputAbbreviatedPath": "\/assets\/img\/bitcoin-cover.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/bitcoin-cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/bitcoin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14655,
+		"inputAbbreviatedPath": "\/assets\/img\/bitcoin.png",
+		"outputAbbreviatedPath": "\/assets\/img\/bitcoin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/bitspill.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -135,6 +177,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/gabriele.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18953,
+		"inputAbbreviatedPath": "\/assets\/img\/gabriele.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/gabriele.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/imogen-heap.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -142,6 +195,28 @@
 		"initialSize": 11951,
 		"inputAbbreviatedPath": "\/assets\/img\/imogen-heap.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/imogen-heap.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/js.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 439946,
+		"inputAbbreviatedPath": "\/assets\/img\/js.png",
+		"outputAbbreviatedPath": "\/assets\/img\/js.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/markdown.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26866,
+		"inputAbbreviatedPath": "\/assets\/img\/markdown.png",
+		"outputAbbreviatedPath": "\/assets\/img\/markdown.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -168,12 +243,78 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/tyler.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 336139,
+		"inputAbbreviatedPath": "\/assets\/img\/tyler.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tyler.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/vxn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371100,
+		"inputAbbreviatedPath": "\/assets\/img\/vxn.png",
+		"outputAbbreviatedPath": "\/assets\/img\/vxn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/js\/marked.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/marked.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/marked.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/min\/strapdown-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/min\/strapdown-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/strapdown-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/min\/wavesurfer.timeline.min-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/min\/wavesurfer.timeline.min-min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/wavesurfer.timeline.min-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/prism.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/prism.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/prism-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/strapdown.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/strapdown.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/strapdown-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -201,6 +342,222 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/other\/ViewerJS\/compatibility.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/compatibility.js",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/min\/compatibility-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/other\/ViewerJS\/example.local.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/example.local.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/kogmbh.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2835,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/kogmbh.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/kogmbh.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/nlnet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5400,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/nlnet.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/nlnet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/texture.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2459,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/texture.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/texture.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/toolbarButton-download.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 512,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-download.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-download.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/toolbarButton-fullscreen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 491,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-fullscreen.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-fullscreen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/toolbarButton-menuArrows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 237,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-menuArrows.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-menuArrows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/toolbarButton-pageDown.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 353,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-pageDown.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-pageDown.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/toolbarButton-pageUp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 344,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-pageUp.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-pageUp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/toolbarButton-presentation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4366,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-presentation.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-presentation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/toolbarButton-zoomIn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 228,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-zoomIn.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-zoomIn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/images\/toolbarButton-zoomOut.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-zoomOut.png",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/images\/toolbarButton-zoomOut.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/ViewerJS\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/other\/ViewerJS\/pdf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/pdf.js",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/min\/pdf-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/other\/ViewerJS\/pdf.worker.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/pdf.worker.js",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/min\/pdf.worker-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/other\/ViewerJS\/pdfjsversion.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/pdfjsversion.js",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/min\/pdfjsversion-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/other\/ViewerJS\/text_layer_builder.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/text_layer_builder.js",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/min\/text_layer_builder-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/other\/ViewerJS\/ui_utils.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/ui_utils.js",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/min\/ui_utils-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/other\/ViewerJS\/webodf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/other\/ViewerJS\/webodf.js",
+		"outputAbbreviatedPath": "\/assets\/other\/ViewerJS\/min\/webodf-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/audio.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -210,11 +567,56 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/code.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/code.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/game.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/game.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pdf.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pdf.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/strapdown.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/strapdown.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/text.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/text.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
