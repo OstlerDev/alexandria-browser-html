@@ -50,7 +50,7 @@
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="index.html">
 				<img src="assets/img/alexandria-logo.png" width="30px" height="30px" class="d-inline-block align-top" alt="">
 				ΛLΞXΛNDRIΛ
 			</a>
@@ -81,7 +81,7 @@
 
 		<!-- Video Box -->
 		<div style="background-color: #fff; width: 100%; height: auto; max-height: 600px; margin-top: 54px;">
-			<div id='pdf' class="" style="width: 100%; height: auto; max-height: 600px; margin-left: auto; margin-right: auto; display: block; z-index: -1; position: static; overflow: scroll;" id="vidContainer">
+			<div id='content' class="blur" style="width: 100%; height: auto; max-height: 600px; margin-left: auto; margin-right: auto; display: block; z-index: -1; position: static; overflow: scroll;" id="vidContainer">
 				<div class="justify-content-center" style="width:60%;height:99%;margin: 0px auto">
 					<pre><div id="markdown-raw">
 # Markdown text goes in here
@@ -129,7 +129,7 @@ culpa qui officia deserunt mollit anim id est laborum.
 					<div id="markdown-rendered" style="padding-top:35px;"></div>
 				</div>
 			</div>
-			<div id='paywall' style="display: none;">
+			<div id='paywall' style="">
 				<div class="d-flex align-items-center justify-content-center text-center" style="margin: 0px auto; width: 100%; height: 720px; margin-top: -720px; padding: 10px; z-index: 100;position: relative;color: #fff;background-color:rgba(0,0,0,0.5);">
 					<div style="">
 						<h4 style="margin-bottom: 0px;">To Access this Content</h4>
@@ -151,7 +151,7 @@ culpa qui officia deserunt mollit anim id est laborum.
 				</div>
 			</div>
 		</div>
-		<hr>
+		<hr style="margin-top: 0px;margin-bottom:0px;" />
 		<div class="container">
 			<div class="row">
 				<div id="media-info" class="col-12 col-md-9" style="margin-top: 30px;">
@@ -295,6 +295,13 @@ culpa qui officia deserunt mollit anim id est laborum.
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="assets/js/strapdown.js"></script>
 		<script type="text/javascript">
+			var unlockContent = function(){
+				document.getElementById('paywall').style.display = 'none';
+				document.getElementById('content').classList = [];
+				document.getElementById('bitCount').innerHTML = '500';
+				document.getElementById('bitCountBtn').classList.add('animated');
+				document.getElementById('bitCountBtn').classList.add('rubberBand');
+			}
 		</script>
 	</body>
 </html>
