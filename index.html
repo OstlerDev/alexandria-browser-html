@@ -15,9 +15,11 @@
 		<link href="assets/css/entypo.css" rel="stylesheet">
 
 		<link href="assets/css/animate.css" rel="stylesheet">
+		<link href="assets/css/flag-icon.min.css" rel="stylesheet">
 
 		<link href="http://vjs.zencdn.net/6.2.0/video-js.css" rel="stylesheet">
 		<link href="assets/css/alexandria.videojs.css" rel="stylesheet"> 
+		<link href="assets/css/bs-marketing.block.css" rel="stylesheet"> 
 
 		<style type="text/css">
 			.vjs-poster {
@@ -37,6 +39,20 @@
 				color: #333 !important;;
 			}
 
+			.btn-outline-white {
+				border-color: #fff;
+				color: #fff;
+				background-color: rgba(255,255,255,0);
+			}
+
+			.outline-white {
+				border-color: #fff;
+			}
+
+			.btn-outline-white:hover {
+				background-color: rgba(255,255,255,0.2);
+			}
+
 			.btn-white {
 				color: #fff;
 			}
@@ -51,6 +67,32 @@
 			.no-link-styling:hover {
 				color: #000;
 			}
+
+			.dropdown-item .narrow {
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+
+			.fixed-bottom {
+				position: fixed;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				z-index: 1030;
+				margin-top: -50px;
+			}
+
+			.app-block-footer {
+				background-color: rgb(27, 28, 29);
+				color: #444;
+				color: rgba(116, 119, 123, .5);
+			}
+
+			.mp-icon {
+				font-size: 2em;
+				padding-left: 5px;
+				padding-right: 5px;
+			}
 		</style>
 	</head>
 
@@ -61,8 +103,7 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<a class="navbar-brand" href="index.html">
-				<img src="assets/img/alexandria-logo.png" width="30px" height="30px" class="d-inline-block align-top" alt="">
-				ΛLΞXΛNDRIΛ
+				<img src="assets/img/logo-full.png" width="auto" height="32px" class="d-inline-block align-top" alt="">
 			</a>
 
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -70,27 +111,36 @@
 					<li style="display:inline-block;">
 						<form class="form-inline">
 							<div class="input-group">
-								<input type="text" class="form-control" placeholder="Search..." style="width:350px">
+								<input type="text" class="form-control outline-white" placeholder="Search..." style="width:350px;padding-top:1px;">
 								<span class="input-group-btn">
-									<button class="btn btn-outline-success" type="button">Search</button>
+									<button class="btn btn-outline-white" type="button">Search</button>
 								</span>
 							</div>
 						</form>
 					</li>
 				</ul>
 			</div>
-
-			<div>
+			<button class="btn btn-sm btn-outline-warning" style="margin-right: 10px;"><span class="icon icon-upload-to-cloud"></span> Upload</button>
+			<div style="display: inline-flex;">
 				<div class="btn-group">
-					<button class="btn btn-outline-info" style="margin-left: 10px;padding:0px;"><img src="assets/img/avatar.png" style="width:30px;height:30px;" /></button>
-					<button class="btn btn-outline-info" style="color:#fff !important;padding:8px;">OstlerDev</button>
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn btn-outline-white" style="margin-left: 10px;padding:0px;"><img class="rounded-circle" src="assets/img/sky.jpg" style="width:30px;height:30px;" /></button>
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn btn-outline-white" style="color:#fff !important;padding:8px;">OstlerDev</button>
+					<div class="dropdown-menu" style="">
+						<a class="dropdown-item narrow" href="#"><span class="icon icon-classic-computer"></span> My Artifacts</a>
+						<a class="dropdown-item narrow" href="#"><span class="icon icon-line-graph"></span> Analytics <span class="badge badge-info">beta</span></a>
+						<a class="dropdown-item narrow" href="#"><span class="icon icon-upload-to-cloud"></span> Upload</a>
+						<a class="dropdown-item narrow" href="#"><span class="icon icon-wallet"></span> Wallet</a>
+						<a class="dropdown-item narrow" href="#"><span class="icon icon-cog"></span> Settings</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item narrow" href="#"><span class="icon icon-log-out"></span> Logout</a>
+					</div>
 					<button class="btn btn-outline-success" style="padding:8px;" id="bitCountBtn"><span id='bitCount'>503</span> bits</button>
 				</div>
 			</div>
 		</nav>
 
 		<!-- Video Box -->
-		<div class="container" style="margin-top: 100px;">
+		<div class="container" style="margin-top: 100px;margin-bottom:200px;">
 			<h4 style="margin-bottom: 25px;">Suggested Content</h4>
 			<div class="row">
 				<a href="video.html" class="col-3 no-link-styling">
@@ -205,13 +255,80 @@
 					</div>
 				</a>
 			</div>
-
 		</div><!-- /.container -->
+		<div class="block app-block-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 mb-4">
+						<ul class="list-unstyled list-spaced">
+							<li><h6 class="text-uppercase">Links</h6></li>
+							<li>This</li>
+							<li>Is Just</li>
+							<li>The Demo</li>
+							<li>For what the Footer</li>
+							<li>Could Be</li>
+						</ul>
+					</div>
+					<div class="col-sm-2 mb-4">
+						<ul class="list-unstyled list-spaced">
+							<li><h6 class="text-uppercase">More</h6></li>
+							<li>Links are</li>
+							<li>put into</li>
+							<li>this awesome place</li>
+						</ul>
+					</div>
+					<div class="col-sm-2 mb-4">
+						<ul class="list-unstyled list-spaced">
+							<li><h6 class="text-uppercase">Support</h6></li>
+							<li>Online Support</li>
+							<li>Telephone Sales</li>
+							<li>Help Desk</li>
+							<li>Workshops</li>
+						</ul>
+					</div>
+					 <div class="col-sm-6">
+						<h6 class="text-uppercase">About</h6>
+						<p>Alexandria is about <a href="http://www.invisionapp.com/do">this and this</a> as well as doing this and that. We always work our hardest to put the highest quality text into our applications.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar fixed-bottom" style="background-color: #ffffff;height:52px;padding-top:3px;">
+			<div class="row">
+				<div class="col-6">
+					<div class="row">
+						<div class="col-3">
+							<div class="row" style="padding: 0px 20px;">
+								<span class="col mp-icon icon icon-controller-jump-to-start"></span>
+								<span class="col mp-icon icon icon-controller-play"></span>
+								<span class="col mp-icon icon icon-controller-next"></span>
+							</div>
+						</div>
+						<div class="col-9" style="display:flex;justify-content:center;align-items:center;">
+							<span style="padding-right:10px;">2:05</span>
+							<div class="progress" style="height: 10px;width:100%;background-color: #bdbdbd;">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<span style="padding-left:10px;">4:20</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-6" style="padding: 4px 20px;display:flex;">
+					<img class="rounded" src="assets/img/album-artwork.jpg" width="40px" height="40px">
+					<div style="padding: 0px 10px;">
+						<div style="font-weight:700;font-size:14px;">Tiny Human</div>
+						<div style="color: #555;font-size:12px;">Imogen Heap - Tiny Human</div>
+					</div>
+				</div>
+			</div>
+		</nav>
 
 
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="http://vjs.zencdn.net/6.2.0/video.js"></script>
 
 		<script type="text/javascript">
