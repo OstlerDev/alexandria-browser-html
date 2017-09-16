@@ -32,10 +32,10 @@ const navbarViewLayout = ({
 //     paywall: paywallView(balance: { quantity: 3 } })
 //   });
 
-function render(/* layout, */data) {
+export function renderApp(/* layout, */data) {
   const mainLayout = ({
     navbar: navbarViewLayout::navbarView(),
-    main: videoPlayerView(data), //todo: update given change of data in contextual group (generic)
+    main: this::videoPlayerView(), //todo: update given change of data in contextual group (generic)
     footer: footerView()
   })::layout();
 
@@ -43,5 +43,3 @@ function render(/* layout, */data) {
 
   return markup;
 }
-
-export default render
