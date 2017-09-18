@@ -23,23 +23,36 @@ const user = {
   name: 'Sky!'
 };
 
+// const navbarViewLayout = ({
+//     items: [searchBarView],
+//     profile: profileViewLayout::profileView(user)
+//   })::layout();
+
 const navbarViewLayout = ({
-    items: [searchBarView],
-    profile: profileViewLayout::profileView(user)
+    items: []
   })::layout();
 
 // const videoPlayerContext = layout({
 //     paywall: paywallView(balance: { quantity: 3 } })
 //   });
 
-export function renderApp(/* layout, */data) {
-  const mainLayout = ({
+export function renderApp(page) {
+  const coreLayout = {
     navbar: navbarViewLayout::navbarView(),
-    main: this::videoPlayerView(), //todo: update given change of data in contextual group (generic)
     footer: footerView()
-  })::layout();
+  };
+  
+  //todo: update given change of data in contextual group (generic)
+  coreLayout.main = (() => {
+    switch (page) {
+      case '/': return searchBarView;
+      case '/watch': return this::videoPlayerView();
+    }
+  })();
 
-  const markup = mainLayout::htmlView();
+  const markup = (
+      coreLayout::layout()
+    )::htmlView();
 
   return markup;
 }

@@ -21,9 +21,11 @@ function navbarView() {
         </ul>
       </div>
 
+      ${profile ? `
       <div>
         ${profile}
       </div>
+      ` : ''}
     </nav>  
   `;
 }
