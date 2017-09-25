@@ -37,6 +37,8 @@ const navbarViewLayout = ({
 //   });
 
 export function renderApp(page) {
+  const { video } = this;
+
   const coreLayout = {
     navbar: navbarViewLayout::navbarView(),
     footer: footerView()
@@ -46,7 +48,7 @@ export function renderApp(page) {
   coreLayout.main = (() => {
     switch (page) {
       case '/': return searchBarView;
-      case '/watch': return this::videoPlayerView();
+      case '/watch': return video::videoPlayerView();
     }
   })();
 
